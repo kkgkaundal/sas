@@ -49,16 +49,12 @@ SATELLITE_CATALOG_NUMBERS = [25544, 48274]  # Example: ISS, IRNSS-1I (Indian sat
 
 # Real Public Camera Streams - Verified Working Sources
 TRAFFIC_CAM_STREAMS = [
-    {'id': 0, 'url': 'rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov', 'location': 'Demo Test Stream', 'lat': 28.14, 'lon': 77.32},
-    {'id': 1, 'url': 'http://60.49.98.22:8092/mjpeg.cgi', 'location': 'Tokyo Traffic - Shibuya', 'lat': 35.6595, 'lon': 139.7004},
-    {'id': 2, 'url': 'http://213.193.89.202/axis-cgi/mjpg/video.cgi', 'location': 'Switzerland Highway', 'lat': 47.3769, 'lon': 8.5417},
-    {'id': 3, 'url': 'http://videos.earthcam.com/fecnetwork/9974.flv/chunklist_w1881186315.m3u8', 'location': 'Times Square, New York', 'lat': 40.7580, 'lon': -73.9855},
-    {'id': 4, 'url': 'http://videos.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/chunklist_w538361048.m3u8', 'location': 'Abbey Road, London', 'lat': 51.5319, 'lon': -0.1773},
-    {'id': 5, 'url': 'http://88.191.172.145/mjpg/video.mjpg', 'location': 'Paris Street View', 'lat': 48.8566, 'lon': 2.3522},
-    {'id': 6, 'url': 'http://95.110.229.185/axis-cgi/mjpg/video.cgi', 'location': 'Venice Canal', 'lat': 45.4408, 'lon': 12.3155},
-    {'id': 7, 'url': 'http://207.251.86.238/cctv851.jpg', 'location': 'San Francisco Bay Bridge', 'lat': 37.7955, 'lon': -122.3785},
-    {'id': 8, 'url': 'http://88.146.205.74/mjpg/video.mjpg', 'location': 'Prague City Center', 'lat': 50.0755, 'lon': 14.4378},
-    {'id': 9, 'url': 'http://videos.earthcam.com/fecnetwork/15361.flv/chunklist_w1089332281.m3u8', 'location': 'Sydney Harbor', 'lat': -33.8568, 'lon': 151.2153},
+    {'id': 0, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', 'location': 'Demo Test Stream 1', 'lat': 28.14, 'lon': 77.32},
+    {'id': 1, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4', 'location': 'Demo Test Stream 2', 'lat': 35.6595, 'lon': 139.7004},
+    {'id': 2, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4', 'location': 'Demo Test Stream 3', 'lat': 47.3769, 'lon': 8.5417},
+    {'id': 3, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4', 'location': 'Demo Test Stream 4', 'lat': 40.7580, 'lon': -73.9855},
+    {'id': 4, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4', 'location': 'Demo Test Stream 5', 'lat': 51.5319, 'lon': -0.1773},
+    {'id': 5, 'url': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4', 'location': 'Demo Test Stream 6', 'lat': 48.8566, 'lon': 2.3522},
 ]
 
 # Collision thresholds (in meters)
