@@ -1,0 +1,17 @@
+flask
+requests
+pandas
+numpy
+skyfield
+opencv-python-headless
+torch
+torchvision
+transformers
+folium
+geopandas
+shapely
+scipy
+Pillow
+flask-cors
+pafy
+youtube-dl
